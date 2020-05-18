@@ -49,6 +49,13 @@ public class Block extends javax.swing.JFrame {
         mineBlock = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         dataBlock = new javax.swing.JTextArea();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -194,6 +201,41 @@ public class Block extends javax.swing.JFrame {
 
         pnlCenter.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 310, 260));
 
+        jLabel21.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setText("Intructions.:");
+        pnlCenter.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 120, 130, 30));
+
+        jLabel22.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setText("dataset.");
+        pnlCenter.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 330, 90, 30));
+
+        jLabel16.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("the data. Remember, every nonce and hash are unique for every");
+        pnlCenter.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 300, 580, 30));
+
+        jLabel17.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("is modified in the block, nonce and hash change accordingly with");
+        pnlCenter.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 270, 570, 30));
+
+        jLabel18.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setText("block, it has to be re-mined due to data alteration. When data");
+        pnlCenter.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 240, 570, 30));
+
+        jLabel19.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setText("the hashing of data. Everytime a new dataset is added into the");
+        pnlCenter.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 210, 570, 30));
+
+        jLabel20.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("Here you will be able to experience the creation of a block and");
+        pnlCenter.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 180, 570, 30));
+
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/Blockchain.jpg"))); // NOI18N
         pnlCenter.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 300, 600, 320));
 
@@ -320,7 +362,14 @@ public class Block extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
