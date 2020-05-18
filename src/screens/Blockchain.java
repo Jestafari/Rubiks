@@ -43,6 +43,7 @@ public class Blockchain extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         pnlCenter = new javax.swing.JPanel();
         block1 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -151,6 +152,11 @@ public class Blockchain extends javax.swing.JFrame {
         block1.setPreferredSize(new java.awt.Dimension(600, 530));
         block1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel17.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("BLOCKS LINKED RELATIONSHIP IN A BLOCKCHAIN");
+        block1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 500, 30));
+
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("BLOCK:");
@@ -225,7 +231,6 @@ public class Blockchain extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(dataBlock1);
         dataBlock1.getAccessibleContext().setAccessibleName("");
-        dataBlock1.getAccessibleContext().setAccessibleDescription("");
 
         block1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(107, 124, 368, 231));
 
@@ -577,6 +582,7 @@ public class Blockchain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

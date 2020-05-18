@@ -37,6 +37,7 @@ public class Block extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         pnlCenter = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
@@ -123,6 +124,11 @@ public class Block extends javax.swing.JFrame {
         pnlCenter.setMinimumSize(new java.awt.Dimension(1110, 600));
         pnlCenter.setPreferredSize(new java.awt.Dimension(1110, 600));
         pnlCenter.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("WHAT IS IN A BLOCK?");
+        pnlCenter.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 240, 40));
 
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -313,6 +319,7 @@ public class Block extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
