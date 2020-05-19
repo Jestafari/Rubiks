@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Rubiks.jar" size="242554" download="eager" />
+    <jar href="Rubiks.jar" size="242556" download="eager" />
     <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="screens.Principal"  name="Rubiks" >

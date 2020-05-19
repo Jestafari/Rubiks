@@ -76,7 +76,7 @@ public class Principal extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("Our propose with this user interface is to help IT students to understand part of the basics features of blockchain");
+        jLabel11.setText("Our purpose with this user interface is to help IT students to understand part of the basics features of blockchain");
         pnlCenter.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 1030, 30));
 
         jLabel12.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
